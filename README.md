@@ -11,8 +11,6 @@
 The navigation bar provides quick access to key sections of the site:
 
 - **APIs**: Access to crucial APIs that provide real-time data and alerts to keep you informed during emergencies.
-- **Precautions & Measures**: Detailed content about safety precautions and measures to take before, during, and after a natural calamity.
-- **Videos**: A collection of instructional videos demonstrating what actions to take in various emergency situations.
 
 ### 2. **Content**
 
