@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('oo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 420px; 
+    background:rgba(245, 245, 245, 0.822);
+    border: 1px solid rgb(0, 0, 0);
+    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 10px rgb(14, 70, 79);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin: 20px;
+}
+
+.wrapper:hover {
+    transition: 0.3s;
+      background:whitesmoke;
+}
+
+.wrapper h1 {
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    font-size: 20px;
+    color: rgb(1, 1, 1);
+    padding: 20px 35px 20px 20px;
+}
+
+.input-box input:hover {
+    background: #fafeff21;
+    border: none;
+}
+
+.input-box input:focus{
+       box-shadow: 0px 0px 8px rgb(1, 45, 44);
+    border: none;
+    outline:none;
+}
+
+#errormessage {
+    margin-left: 0;
+    margin-top: -35px;
+    font-size: medium;
+    color: #0e0b0b;
+    font-weight: 600;
+    background-color: rgb(0, 0, 0);
+    width: fit-content;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+}
+
+.input-box input::placeholder {
+    color: #02020295;
+}
+
+.input-box i {
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.remember-forgot label {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px; /* Set a fixed height */
+    background: #000000;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.btn:hover {
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.wrapper .register-link {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.register-link p a {
+    text-decoration: none;
+    color: #090909;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+.hide {
+    display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 15px 20px;
+    }
+
+    .input-box input {
+        font-size: 16px; 
+    }
+
+    .input-box i {
+        font-size: 18px; 
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .input-box {
+        margin: 20px 0; 
+    }
+
+    #errormessage {
+        font-size: small; 
+        margin-left: 0;
+        margin-top: -30px;
+    }
+
+    .wrapper {
+        margin: 10px; 
+    }
+
+    .input-box input {
+        font-size: 14px; 
+    }
+
+    .input-box i {
+        font-size: 16px; 
+    }
+
+    .btn {
+        font-size: 12px; 
+    }
+}
