@@ -44,6 +44,3 @@ This reflects our commitment to providing the tools and information you need to 
 3. **Learn and Prepare**: Review the precautionary measures and watch the videos to be well-prepared for emergencies.
 4. **Stay Informed**: Regularly check for updates and new information to keep yourself and your community safe.
 
-## Contact
-
-For more information, inquiries, or feedback, please contact us at [@MEANDUCK](https://www.instagram.com/meand_ck?igsh=MzRlODBiNWFlZA==).
