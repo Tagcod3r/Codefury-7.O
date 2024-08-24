@@ -43,4 +43,4 @@ This reflects our commitment to providing the tools and information you need to 
 4. **Stay Informed**: Regularly check for updates and new information to keep yourself and your community safe.
 
 ## For more information ,
-Visit my portfolio website at [@sand](https://crisis-ready-urssand.netlify.app/).
+Visit our website at [@sand](https://crisis-ready-urssand.netlify.app/).
